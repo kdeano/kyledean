@@ -115,6 +115,8 @@ button:hover {
 }
 
 /* media queries for smaller screens // ensures no scroll bar */
+/* TODO */
+/* Add necessary media queries for desktop and mobile */
 
 @media screen and (max-width: 1015px) {
     .vid {
