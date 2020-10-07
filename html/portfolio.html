@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Kyle Dean | Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../img/logo-white.png">
+        <link rel="stylesheet" href="../css/portfolio.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header>
+            <a class="logo" href="../index.html"><img class="logo" src="../img/logo-white.png" alt="logo"></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../html/portfolio.html">Portfolio</a></li>
+                    <li><a href="../html/resume.html">Resume</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="../html/contact.html"><button>Contact</button></a>
+        </header>
+
+        <!-- These currently contain placeholder images and text due to no past projects -->
+        <div class="carousel">
+            <button class="carousel__btn carousel__btn--left is-hidden">
+                <img src="../img/portfolio/back.svg" class="filter-white" alt="">
+            </button>
+            <div class="carousel__track-container">
+                <ul class="carousel__track">
+                    <li class="carousel__slide current-slide">
+                        <img class="carousel__img" id="carousel__img-1" src="../img/portfolio/project-1.gif" alt=""/>
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel__img" id="carousel__img-2" src="../img/portfolio/project-2.jpg" alt=""/>
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel__img" id="carousel__img-3" src="../img/portfolio/project-3.jpg" alt=""/>
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel__btn carousel__btn--right">
+                <img src="../img/portfolio/next.svg" class="filter-white" alt="">
+            </button>
+
+            <div class="carousel__nav">
+                <button class="carousel__indicator current-slide"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+            </div>
+        </div>
+
+        <div class="modal modal-1 is-hidden">
+            <div class="modal__content">
+                <div class="modal__close" id="modal__close-1">+</div>
+                <h1 class="modal__title">Project 1</h1>
+                <h3 class="modal__github">
+                    <img src="../img/portfolio/github-logo.svg" alt=""/>Github: <span>Coming soon.</span>
+                </h3>
+                <p class="modal__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Vestibulum hendrerit magna velit, in imperdiet arcu elementum eget. 
+                    Phasellus et ullamcorper massa. Phasellus ornare, odio at ultrices viverra, 
+                    lacus ligula euismod magna, vitae porttitor nulla sem ac justo. 
+                </br></br>
+                    Pellentesque pharetra ante erat, ut cursus nisi sollicitudin ac. Duis ac egestas lectus. 
+                    Vivamus eu diam id purus aliquet consequat. Praesent quis massa ut odio facilisis suscipit. 
+                    Pellentesque sollicitudin facilisis ante vulputate consectetur. 
+                </br></br>
+                    Cras neque ipsum, ultrices sodales sollicitudin id, sodales id velit.
+                    Cras eleifend nulla nec nibh dictum, et faucibus sem posuere. Quisque mattis vulputate justo, 
+                    sed porttitor neque posuere et. Aliquam efficitur cursus mauris, 
+                    dictum feugiat massa hendrerit nec.</p>
+            </div>
+        </div>
+
+        <div class="modal modal-2 is-hidden">
+            <div class="modal__content">
+                <div class="modal__close" id="modal__close-2">+</div>
+                <h1 class="modal__title">Project 2</h1>
+                <h3 class="modal__github">
+                    <img src="../img/portfolio/github-logo.svg" alt=""/>Github: <span>Coming soon.</span>
+                </h3>
+                <p class="modal__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Vestibulum hendrerit magna velit, in imperdiet arcu elementum eget. 
+                    Phasellus et ullamcorper massa. Phasellus ornare, odio at ultrices viverra, 
+                    lacus ligula euismod magna, vitae porttitor nulla sem ac justo. 
+                </br></br>
+                    Pellentesque pharetra ante erat, ut cursus nisi sollicitudin ac. Duis ac egestas lectus. 
+                    Vivamus eu diam id purus aliquet consequat. Praesent quis massa ut odio facilisis suscipit. 
+                    Pellentesque sollicitudin facilisis ante vulputate consectetur. 
+                </br></br>
+                    Cras neque ipsum, ultrices sodales sollicitudin id, sodales id velit.
+                    Cras eleifend nulla nec nibh dictum, et faucibus sem posuere. Quisque mattis vulputate justo, 
+                    sed porttitor neque posuere et. Aliquam efficitur cursus mauris, 
+                    dictum feugiat massa hendrerit nec.</p>
+            </div>
+        </div>
+
+        <div class="modal modal-3 is-hidden">
+            <div class="modal__content">
+                <div class="modal__close" id="modal__close-3">+</div>
+                <h1 class="modal__title">Project 3</h1>
+                <h3 class="modal__github">
+                    <img src="../img/portfolio/github-logo.svg" alt=""/>Github: <span>Coming soon.</span>
+                </h3>
+                <p class="modal__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Vestibulum hendrerit magna velit, in imperdiet arcu elementum eget. 
+                    Phasellus et ullamcorper massa. Phasellus ornare, odio at ultrices viverra, 
+                    lacus ligula euismod magna, vitae porttitor nulla sem ac justo. 
+                </br></br>
+                    Pellentesque pharetra ante erat, ut cursus nisi sollicitudin ac. Duis ac egestas lectus. 
+                    Vivamus eu diam id purus aliquet consequat. Praesent quis massa ut odio facilisis suscipit. 
+                    Pellentesque sollicitudin facilisis ante vulputate consectetur. 
+                </br></br>
+                    Cras neque ipsum, ultrices sodales sollicitudin id, sodales id velit.
+                    Cras eleifend nulla nec nibh dictum, et faucibus sem posuere. Quisque mattis vulputate justo, 
+                    sed porttitor neque posuere et. Aliquam efficitur cursus mauris, 
+                    dictum feugiat massa hendrerit nec.</p>
+            </div>
+        </div>
+        
+        <script src="../js/carousel.js" async defer></script>
+        <script src="../js/modal.js" async defer></script>
+    </body>
+</html>
