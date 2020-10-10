@@ -102,6 +102,18 @@ button:hover {
     animation: blink 0.85s infinite ease;
 }
 
+.warning-msg {
+    position: relative;
+    text-align: center;
+    padding-bottom: 8px;
+    color: white;
+    font-size: 15px;
+}
+
+#motd {
+    margin-top: 1.5%;
+}
+
 @keyframes blink {
     0%{
         opacity: 100;
